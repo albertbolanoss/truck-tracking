@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "namespace": "trucktracking.context.schemas.truck",
+  "name": "TrackTruckGps",
+  "doc": "Tracking the truck GPS",
+  "fields": [
+    {
+      "name": "truckId",
+      "type": "string",
+      "doc": "truck id"
+    },
+    {
+      "name": "latitude",
+      "type": "string",
+      "doc": "latitude"
+    },
+    {
+      "name": "longitude",
+      "type": "string",
+      "doc": "longitude"
+    }
+  ]
+}
